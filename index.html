@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login page</title>
+        <link href="stylesheet/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form class="formBox" name="mainForm" method="post">
+            <fieldset class="formBox__fieldset">
+                <legend>User Authentication</legend>
+                <div class="loginBox">
+                    <label for="loginBox__username" class="loginBox__label">Username:</label>
+                    <input type="text" id="loginBox__username" class="loginBox__text">
+                </div>
+                <div class="loginBox">
+                    <label for="loginBox__password" class="loginBox__label">Password:</label>
+                    <input type="password" id="loginBox__password" class="loginBox__text">
+                </div>
+                <button type="submit" class="loginBox__submit">Log in</button>
+            </fieldset>
+        </form>
+        <div id="output"></div>
+        <script src="main.js"></script>
+        <script src="validate.js"></script>
+        <script src="md5.js"></script>
+        <script src="md5Encrypt.js"></script>
+    </body>
+</html>

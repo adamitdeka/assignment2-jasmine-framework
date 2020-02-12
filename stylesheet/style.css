@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+h1{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.formBox{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:1em;
+    border: 2px dashed black;
+    background-color: #f0f0e1;
+}
+
+
+.formBox__fieldset{
+    max-width: 600px;
+    padding:1em;
+}
+
+.loginBox{
+    max-width:250px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 5px;;
+}
+
+.loginBox__label{
+    width: 70px;
+    background-color: #a9a9a9;
+}
+
+.loginBox__submit{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
